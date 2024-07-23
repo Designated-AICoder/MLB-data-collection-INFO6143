@@ -22,7 +22,7 @@ This project is part of the INFO6143 course at Fanshawe College. The goal is to 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Group_07_project02.git
+   git clone https://github.com/Designated-AICoder/MLB-data-collection-INFO6143.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -62,19 +62,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
-
-Thanks to Fanshawe College and Professor Jim Cooper for the course and project guidance.
-
-````
-
-### `requirements.txt`
-```plaintext
-requests
-
-
-### Summary
-- **Directory**: `Group_07_project02`
-- **Files**: `urls.txt`, `mlb_data_collection.py`, `requirements.txt`, `README.md`
-- **Error Handling**: Enhanced for both file reading and network requests.
-- **CSV Output**: Created in the same directory with the name `MLBData.csv`.
-````
