@@ -52,21 +52,6 @@ def extract_game_schedule_info(date, game, game_info):
         "Headline": highlights_item.get("headline", "N/A"),
         "MP4": playback.get("url", "N/A")
     }
-    # game_data_dict = []
-    # highlights_items = game_info.get("highlights", {}).get(
-    #     "highlights", {}).get("items", [])
-    # for item in highlights_items:
-    #     playbacks = item.get("playbacks", [])
-    #     for playback in playbacks:
-    #         game_data_dict.append({
-    #             "Date": date,
-    #             "Home Team": game.get("teams", {}).get("home", {}).get("team", {}).get("name", "N/A"),
-    #             "Away Team": game.get("teams", {}).get("away", {}).get("team", {}).get("name", "N/A"),
-    #             "Game PK": game.get("gamePk", "N/A"),
-    #             "Headline": item.get("headline", "N/A"),
-    #             "MP4": playback.get("url", "N/A")
-    #         })
-    # return game_data_dict
 
 
 def save_to_csv(games, filename):
